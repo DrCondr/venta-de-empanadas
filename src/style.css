@@ -1,0 +1,93 @@
+* {
+  text-align:center;
+  
+}
+
+a {
+  color: purple;
+  text-decoration: none;
+  line-height: 5;
+  display:flex;
+  
+}
+
+#container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header {
+  position: fixed;
+  top:0;
+  background-color: #3333;
+  min-widtht:100%;
+}
+@media (min-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+.btn {
+  padding: 0 20px;
+  height: 40px;
+  font-size: 1em;
+  font-weight: 900;
+  text-transform: uppercase;
+  border: 3px black solid;
+  cursor: pointer;
+}
+
+#boton {
+  
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  height: 200px;
+  margin-top: 5px;
+
+}
+
+#boton > h2 {
+  font-size: 30px;
+}
+
+#boton input[type="email"] {
+   max-width: 285px;
+  width: 100%;
+  padding: 10px;
+}
+
+#boton input[type='submit'] {
+  max-width: 1000px;
+  width: 100%;
+  height: 30px;
+  margin: 15px 0;
+  border: 0;
+  background-color: grey;
+}
+
+p {
+  font-size: 20px;
+  
+}
+
+#precios > h2 {
+  font-size: 40px;
+  
+}
+
+h3 {
+  margin-top: -25px;
+}
+
+section > ul {
+ display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+ 
